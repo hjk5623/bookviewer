@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="550.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.MainController">
+   <children>
+      <HBox alignment="CENTER" prefHeight="59.0" prefWidth="1000.0">
+         <children>
+            <Label fx:id="label" prefHeight="0.0" prefWidth="205.0" text="BookList" textFill="#866c6c">
+               <font>
+                  <Font size="50.0" />
+               </font>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+      <HBox alignment="BOTTOM_LEFT" prefHeight="36.0" prefWidth="1000.0" spacing="5.0">
+         <children>
+            <TextField fx:id="b1TextSearch" prefHeight="33.0" prefWidth="172.0" promptText="등록번호, 제목">
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin></TextField>
+            <Button fx:id="b1BtnSearch" mnemonicParsing="false" text="검색">
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <HBox prefHeight="365.0" prefWidth="1000.0" spacing="5.0">
+         <children>
+            <TableView fx:id="b1TableView" prefHeight="408.0" prefWidth="813.0">
+              <columns>
+                <TableColumn prefWidth="83.0" text="도서번호" />
+                <TableColumn prefWidth="92.0" text="제목" />
+                  <TableColumn prefWidth="116.0" text="작가" />
+                  <TableColumn prefWidth="47.0" text="평점" />
+                  <TableColumn prefWidth="57.0" text="장르" />
+                  <TableColumn prefWidth="106.0" text="출판일" />
+                  <TableColumn editable="false" prefWidth="49.0" text="나라" />
+                  <TableColumn prefWidth="47.0" text="완결" />
+                  <TableColumn prefWidth="49.0" text="권수" />
+                  <TableColumn editable="false" prefWidth="176.0" text="이미지" />
+              </columns>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </TableView>
+            <VBox alignment="CENTER" prefHeight="365.0" prefWidth="160.0">
+               <children>
+                  <ImageView fx:id="b1ImageView" fitHeight="254.0" fitWidth="172.0" pickOnBounds="true">
+                     <VBox.margin>
+                        <Insets bottom="5.0" left="5.0" />
+                     </VBox.margin></ImageView>
+                  <Button fx:id="b1BtnRegister" mnemonicParsing="false" prefHeight="35.0" prefWidth="180.0" text="등록">
+                     <VBox.margin>
+                        <Insets bottom="2.0" />
+                     </VBox.margin></Button>
+                  <Button fx:id="b1BtnEdit" mnemonicParsing="false" prefHeight="35.0" prefWidth="185.0" text="수정">
+                     <VBox.margin>
+                        <Insets bottom="2.0" />
+                     </VBox.margin></Button>
+                  <Button fx:id="b1BtnDrop" mnemonicParsing="false" prefHeight="35.0" prefWidth="180.0" text="삭제" />
+               </children>
+            </VBox>
+         </children>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="54.0" prefWidth="1000.0">
+         <children>
+            <HBox prefHeight="54.0" prefWidth="480.0">
+               <children>
+                  <Button fx:id="b1BtnLook" mnemonicParsing="false" prefHeight="55.0" prefWidth="88.0" text="읽기">
+                     <HBox.margin>
+                        <Insets left="1.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="b1BtnStory" mnemonicParsing="false" prefHeight="55.0" prefWidth="88.0" text="줄거리">
+                     <HBox.margin>
+                        <Insets left="2.0" />
+                     </HBox.margin></Button>
+               </children>
+            </HBox>
+            <HBox alignment="TOP_RIGHT" prefHeight="60.0" prefWidth="511.0">
+               <children>
+                  <Button fx:id="b1BtnChart" mnemonicParsing="false" prefHeight="54.0" prefWidth="85.0" text="차트">
+                     <HBox.margin>
+                        <Insets right="2.0" top="2.0" />
+                     </HBox.margin></Button>
+                  <Button fx:id="b1BtnClose" mnemonicParsing="false" prefHeight="55.0" prefWidth="88.0" text="닫기">
+                     <HBox.margin>
+                        <Insets top="2.0" />
+                     </HBox.margin></Button>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+   </children>
+</VBox>

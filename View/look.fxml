@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="366.0" prefWidth="465.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER" prefHeight="349.0" prefWidth="480.0" spacing="5.0">
+         <children>
+            <TableView id="lookTableView" prefHeight="346.0" prefWidth="245.0">
+              <columns>
+                <TableColumn prefWidth="62.0" text="리스트" />
+                <TableColumn prefWidth="175.0" text="이미지" />
+              </columns>
+            </TableView>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <ImageView id="lookImageView" fitHeight="211.0" fitWidth="200.0" pickOnBounds="true">
+                     <VBox.margin>
+                        <Insets bottom="15.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <Button id="lookBtnFirst" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" text="첫회보기">
+                     <VBox.margin>
+                        <Insets bottom="2.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button id="lookBtnAgain" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" text="이어보기">
+                     <VBox.margin>
+                        <Insets bottom="2.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button id="lookBtnClose" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" text="닫기" />
+               </children>
+            </VBox>
+         </children>
+         <VBox.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </VBox.margin>
+      </HBox>
+   </children>
+</VBox>

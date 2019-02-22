@@ -1,0 +1,40 @@
+.vLogin{
+	-fx-background-color:white;
+}
+TextField, PasswordField{
+	-fx-background-radius:5.0;
+	-fx-border-radius:5.0;
+}
+Button{
+	-fx-background-color:#FFFFFF;
+	-fx-background-radius:10.0;
+	-fx-border-radius:10.0;
+	-fx-text-fill:#006400;	
+}
+TextField:focused, PasswordField:focused{
+	-fx-background-color:#FAECC5;
+	-fx-border-color:#2E8B57;
+	-fx-background-radius:5.0;
+	-fx-border-radius:5.0;
+	-fx-effect:dropshadow(three-pass-box, #D5D5D5, 3,0.5,2,2)
+}
+Button:hover{
+	-fx-cursor:hand;
+	-fx-background-color:#FAECC5;
+	-fx-border-color:#FAECC5;
+	-fx-background-radius:10.0;
+	-fx-border-radius:10.0;
+	-fx-effect:dropshadow(three-pass-box, #D5D5D5, 3,0.5,2,2)
+}
+.label1{
+	-fx-font-size:15;
+	-fx-font-weight:bold;
+	-fx-text-fill:#5A5A5A;	
+}
+.label2{
+	-fx-font-size:30;
+	-fx-font-weight:bold;
+	-fx-font-family : "Jokerman";
+	-fx-text-fill:gray;	
+	-fx-effect:dropshadow(three-pass-box, #D5D5D5, 3,0.5,2,2)
+}

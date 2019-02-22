@@ -1,0 +1,25 @@
+AnchorPane{
+	-fx-background-color:#E7E7E7;
+}
+
+
+TextField{
+	-fx-background-color:white;
+}
+ComboBox{
+    -fx-background-color: white;
+}
+Button{
+	-fx-background-color:#FFFFFF;
+	-fx-background-radius:10.0;
+	-fx-border-radius:10.0;
+	-fx-text-fill:#000000;	
+}
+Button:hover{
+	-fx-cursor:hand;
+	-fx-background-color:#8C8C8C;
+	-fx-border-color:#8C8C8C;
+	-fx-background-radius:10.0;
+	-fx-border-radius:10.0;
+	-fx-effect:dropshadow(three-pass-box, #D5D5D5, 3,0.5,2,2)
+}

@@ -1,0 +1,36 @@
+AnchorPane{
+	-fx-background-color:#FAE0D4;
+}
+
+
+.text-field{
+	-fx-background-color:#FAE0D4;
+}
+.score{
+	-fx-background-color: white;
+}
+.number{
+	-fx-background-color: white;
+}
+
+ComboBox{
+    -fx-background-color: #FAE0D4;
+}
+
+.text-area .content{
+  -fx-background-color: #FAE0D4;
+}
+Button{
+	-fx-background-color:#FFFFFF;
+	-fx-background-radius:10.0;
+	-fx-border-radius:10.0;
+	-fx-text-fill:black;	
+}
+Button:hover{
+	-fx-cursor:hand;
+	-fx-background-color:#FFF2E6;
+	-fx-border-color:#FFF2E6;
+	-fx-background-radius:10.0;
+	-fx-border-radius:10.0;
+	-fx-effect:dropshadow(three-pass-box, #D5D5D5, 3,0.5,2,2)
+}

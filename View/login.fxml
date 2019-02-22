@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="386.0" prefWidth="325.0" styleClass="vLogin" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.RootController">
+   <children>
+      <HBox alignment="CENTER" prefHeight="271.0" prefWidth="407.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="445.0" prefWidth="382.0">
+               <children>
+                  <Label styleClass="label2" text="BookViewer" />
+                  <ImageView fx:id="imageView" fitHeight="137.0" fitWidth="332.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../Downloads/colorful-books-3183964_1920.jpg" />
+                     </image>
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </ImageView>
+               </children>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </VBox>
+         </children></HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="112.0" prefWidth="800.0" spacing="5.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="103.0" prefWidth="57.0" spacing="20.0">
+               <children>
+                  <Label styleClass="label1" text="ID" />
+                  <Label styleClass="label1" text="PW" />
+               </children>
+               <HBox.margin>
+                  <Insets left="60.0" />
+               </HBox.margin>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="103.0" prefWidth="138.0" spacing="15.0">
+               <children>
+                  <TextField fx:id="textId" />
+                  <PasswordField fx:id="textPassword" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+         <children>
+            <Button fx:id="btnLogin" mnemonicParsing="false" text="확인">
+               <font>
+                  <Font size="12.0" />
+               </font></Button>
+            <Button fx:id="btnClose" mnemonicParsing="false" text="취소">
+            <font>
+                  <Font size="12.0" />
+               </font></Button>
+         </children>
+         <VBox.margin>
+            <Insets left="110.0" />
+         </VBox.margin>
+      </HBox>
+   </children>
+</VBox>

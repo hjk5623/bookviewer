@@ -1,0 +1,23 @@
+VBox{
+	-fx-background-color:white;
+	-fx-font-size:15;
+	-fx-font-family:"³ª´®°íµñ";
+ 	 -fx-text-fill: black;
+ 	 -fx-font-weight:bold;
+}
+Button{
+	-fx-font-size:13;
+	-fx-background-color:lightgray;
+	-fx-background-radius:20.0;
+	-fx-border-radius:20.0;
+	-fx-text-fill:#000000;
+	-fx-font-weight:normal;
+}
+Button:hover{
+	-fx-cursor:hand;
+	-fx-background-color:#8C8C8C;
+	-fx-border-color:#8C8C8C;
+	-fx-background-radius:20.0;
+	-fx-border-radius:20.0;
+	-fx-effect:dropshadow(three-pass-box, #D5D5D5, 3,0.5,2,2)
+}

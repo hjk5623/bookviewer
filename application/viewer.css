@@ -1,0 +1,21 @@
+Button{
+	-fx-background-color:white;
+	-fx-background-radius:20.0;
+	-fx-border-radius:20.0;
+	-fx-text-fill:#000000;	
+}
+
+Button:hover{
+	-fx-cursor:hand;
+	-fx-background-color:#8C8C8C;
+	-fx-border-color:#8C8C8C;
+	-fx-background-radius:20.0;
+	-fx-border-radius:20.0;
+	-fx-effect:dropshadow(three-pass-box, #D5D5D5, 3,0.5,2,2)
+}
+#viewerImageNext:pressed{
+	-fx-background-image:url("../images/clock.jpg");
+}
+.imageBack:pressed{
+	-fx-background-image:url("../images/clock.jpg");
+}

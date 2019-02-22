@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.chart.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="416.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TabPane prefHeight="618.0" prefWidth="727.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="SocreChart">
+               <content>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="321.0" prefWidth="971.0">
+                           <children>
+                              <BarChart fx:id="t1BarChart" prefHeight="299.0" prefWidth="594.0">
+                                <xAxis>
+                                  <CategoryAxis />
+                                </xAxis>
+                                <yAxis>
+                                  <NumberAxis side="LEFT" />
+                                </yAxis>
+                              </BarChart>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="13.0" prefWidth="600.0">
+                           <children>
+                              <Button id="t1BtnReg" mnemonicParsing="false" text="확인">
+                                 <HBox.margin>
+                                    <Insets top="5.0" />
+                                 </HBox.margin></Button>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </content>
+          </Tab>
+          <Tab text="GenreChart">
+               <content>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="321.0" prefWidth="971.0">
+                           <children>
+                              <PieChart id="t2PieChart" prefHeight="290.0" />
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="38.0" prefWidth="600.0">
+                           <children>
+                              <Button id="t2BtnReg" mnemonicParsing="false" text="확인" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</VBox>

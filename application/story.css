@@ -1,0 +1,25 @@
+.storyVBox {
+	-fx-background-color : white;
+}
+Label{
+	-fx-font-size:20;
+	-fx-font-weight:bold;
+	-fx-font-family : "@Yj MAEHWA  SemiBold Yj MAEHWA";
+	-fx-text-fill:gray;	
+	-fx-effect:dropshadow(three-pass-box, #D5D5D5, 3,0.5,2,2)
+}
+
+Button{
+	-fx-background-color:#FFFFFF;
+	-fx-background-radius:10.0;
+	-fx-border-radius:10.0;
+	-fx-text-fill:#000000;	
+}
+Button:hover{
+	-fx-cursor:hand;
+	-fx-background-color:#8C8C8C;
+	-fx-border-color:#8C8C8C;
+	-fx-background-radius:10.0;
+	-fx-border-radius:10.0;
+	-fx-effect:dropshadow(three-pass-box, #D5D5D5, 3,0.5,2,2)
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="750.0" prefWidth="1000.0" spacing="5.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER" prefHeight="689.0" prefWidth="995.0">
+         <children>
+            <ImageView id="viewerImageView" fitHeight="647.0" fitWidth="990.0" pickOnBounds="true" />
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="73.0" prefWidth="1000.0" spacing="20.0" style="-fx-background-color: white;">
+               <children>
+                  <Button id="viewerBtnBack" mnemonicParsing="false" prefHeight="71.0" prefWidth="85.0" text="이전화" />
+                  <ImageView id="viewerImageBack" fitHeight="57.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true" styleClass="imageBack" />
+                  <Label id="viewerLabelBack" text="n" />
+                  <TextField id="viewerTextfield" alignment="CENTER" prefHeight="48.0" prefWidth="68.0" />
+                  <Label id="viewerLabelNext" text="n" />
+                  <ImageView id="viewerImageNext" fitHeight="57.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true" />
+                  <Button id="viewerBtnNext" mnemonicParsing="false" prefHeight="71.0" prefWidth="85.0" text="다음화" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="73.0" prefWidth="405.0" style="-fx-background-color: white;">
+               <children>
+                  <VBox prefHeight="73.0" prefWidth="117.0">
+                     <children>
+                        <Button id="viewerBtnMark" mnemonicParsing="false" prefHeight="40.0" prefWidth="115.0" text="북마크" />
+                        <Button id="viewerBtnImage" mnemonicParsing="false" prefHeight="40.0" prefWidth="115.0" text="이미지저장" />
+                     </children>
+                  </VBox>
+                  <Button id="viewerBtnClose" mnemonicParsing="false" prefHeight="80.0" prefWidth="77.0" text="닫기" />
+               </children>
+            </HBox>
+         </children></HBox>
+   </children>
+   <padding>
+      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+   </padding>
+</VBox>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="437.0" prefWidth="421.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="30.0" layoutY="70.0" text="작가">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="9.0" layoutY="30.0" text="등록번호">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="110.0" text="나라">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="161.0" layoutY="110.0" text="권수">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="236.0" layoutY="70.0" text="이미지">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="287.0" layoutY="110.0" text="완결">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="18.0" layoutY="180.0" text="출판일">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="245.0" layoutY="30.0" text="제목">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="146.0" text="평점">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <TextField id="regTextNo" layoutX="76.0" layoutY="26.0" prefHeight="15.0" prefWidth="129.0">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </TextField>
+      <ComboBox id="regCmbGenre" layoutX="327.0" layoutY="137.0" prefHeight="33.0" prefWidth="85.0" />
+      <ComboBox styleClass="finish"  id="regCmbFinish" layoutX="328.0" layoutY="101.0" prefHeight="33.0" prefWidth="83.0" />
+      <DatePicker id="regDatePickerDate" layoutX="74.0" layoutY="171.0" prefHeight="33.0" prefWidth="185.0" />
+      <TextField id="regTextWriter" layoutX="76.0" layoutY="66.0" prefHeight="23.0" prefWidth="129.0">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </TextField>
+      <TextField id="regTextImage" layoutX="285.0" layoutY="66.0" prefHeight="23.0" prefWidth="129.0">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </TextField>
+      <TextField id="regTextState" layoutX="76.0" layoutY="106.0" prefHeight="23.0" prefWidth="64.0">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </TextField>
+      <TextField id="regTextTitle" layoutX="285.0" layoutY="26.0" prefHeight="23.0" prefWidth="129.0">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </TextField>
+      <TextField styleClass="score" id="regTextScore" layoutX="76.0" layoutY="142.0" prefHeight="23.0" prefWidth="64.0">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </TextField>
+      <TextField styleClass="number"  id="regTextNumber" layoutX="197.0" layoutY="106.0" prefHeight="23.0" prefWidth="64.0">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </TextField>
+      <Label layoutX="287.0" layoutY="145.0" text="장르">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <ImageView id="regImageView" fitHeight="153.0" fitWidth="128.0" layoutX="278.0" layoutY="219.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../../images/duke.gif" />
+         </image>
+      </ImageView>
+      <Button id="regBtnImage" layoutX="308.0" layoutY="381.0" mnemonicParsing="false" text="이미지 선택">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Button>
+      <Button id="regBtnSave" layoutX="147.0" layoutY="401.0" mnemonicParsing="false" text="저장">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Button>
+      <Button id="regBtncancle" layoutX="228.0" layoutY="401.0" mnemonicParsing="false" text="취소">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Button>
+      <TextArea id="regTextStory" layoutX="76.0" layoutY="219.0" prefHeight="153.0" prefWidth="183.0" />
+      <Label layoutX="18.0" layoutY="219.0" text="줄거리">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
